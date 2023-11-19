@@ -1,2 +1,2 @@
-# construction_of_cottages
+# Construction of cottages
 Сайт выполненный по заказу для компании, занимающаяся строительством частных домов
