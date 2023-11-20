@@ -1,11 +1,16 @@
-import './App.css'
+import './App.scss'
+import { Route, Routes } from 'react-router'
+import House from '../../pages/House/House'
+
 
 const App = () => {
   
   return (
-    <div>
-      <h1>СтройКвартал</h1>
-    </div>
+    <Routes>
+      {/* Route path="/" element={<PageMain />} /> */}
+      <Route path="/illumination" element={<House />} />
+    </Routes>
+    
   )
 }
 
